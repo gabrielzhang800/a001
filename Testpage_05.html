@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Page</title>
+    <style>
+        #output {
+            margin-top: 20px;
+            font-size: 24px;
+            color: #333;
+        }
+    </style>
+    <script>
+        function displayText() {
+            const textBoxValue = document.getElementById("inputBox").value;
+            const outputDiv = document.getElementById("output");
+            outputDiv.innerHTML = textBoxValue.replace(/\n/g, '<br>');
+        }
+    </script>
+</head>
+<body>
+   
+    <textarea id="inputBox" rows="10" cols="30" placeholder="Type something..."></textarea>
+    <br>
+    <button onclick="displayText()"></button>
+    <div id="output"></div>
+</body>
+</html>
