@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read</title>
+    <style>
+        #output {
+            margin-top: 20px;
+            font-size: 24px;
+            color: #333;
+        }
+    </style>
+    <script>
+        function displayText() {
+            const textBoxValue = document.getElementById("inputBox").value;
+            const outputDiv = document.getElementById("output");
+            outputDiv.innerHTML = textBoxValue.replace(/\n/g, '<br>');
+
+// Clear the textbox after posting
+                inputBox.value = "";
+
+
+        }
+    </script>
+</head>
+<body>
+<div id="output"></div>
+   
+    <textarea id="inputBox" rows="30" cols="60" placeholder="Type something..."></textarea>
+    <br>
+    <button onclick="displayText()">Submit</button>
+    
+</body>
+</html>
