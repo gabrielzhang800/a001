@@ -1,21 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        pre {
-            white-space: pre-wrap;
-            word-wrap: break-word;
-            font-size: 32px;
-
-        }
-    </style>
-    <title>慈禧全传079-090</title>
-</head>
-<body>
-    <pre>
-
 第七九章
 
 　　回到监狱，高鹤鸣对待杨国麟更加恭谨。他始终相信杨国麟是个大贵人，每次去看他，都要把房门关得紧紧地。有个狱卒，怀疑莫释，有天舐破窗纸，往里偷窥，入眼大骇，只见“高四老爷”直挺地跪在“杨爷”面前回话。不过语声低微，听不清说些什么？
@@ -8475,11 +8457,3 @@
 
 
 
-
-
-
-
-
-    </pre>
-</body>
-</html>
